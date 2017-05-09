@@ -1,0 +1,27 @@
+{
+  "entry": "src/index.js",
+  "disableCSSModules": false,
+  "publicPath": "/",
+  "outputPath": "./dist",
+  "autoprefixer": null,
+  "proxy": null,
+  "extraBabelPlugins": [
+    "transform-runtime"
+  ],
+  "extraPostCSSPlugins": [],
+  "autoprefixer": null,
+  "externals": {
+  },
+  "multipage": false,
+  "define": null,
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr"
+      ]
+    }
+  },
+  "theme": {
+  
+  }
+}

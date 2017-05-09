@@ -1,0 +1,124 @@
+body{
+	background-color: #f7f8f9 !important;
+}
+#root{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 960px;
+}
+@media (min-width: 1260px){
+	#root{
+		width: 100%;
+		padding: 0 8%;
+	}
+}
+@media (min-width: 960px){
+	#root{
+		width: 100%;
+		padding: 0 5%;
+	}
+}
+
+/*Common*/
+.ellipsis{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+}
+
+/*Table*/
+.ant-table{
+	border-color: #b8b9ba;
+}
+.ant-table-thead{
+	background: linear-gradient(to top, #eaebec,  #f0f2f3) !important;
+}
+.ant-table-thead > tr > th{
+	border-right: 1px solid #cccecf !important;
+	border-bottom: 2px solid #cccecf !important;
+	background: transparent !important;
+	font-weight: bold !important;
+}
+.ant-table-small .ant-table-thead>tr>th:not(.ant-table-selection-column){
+	padding: 8px !important;
+}
+.ant-table-tbody tr{
+	background-color: #f7f8f9 !important;
+}
+.ant-table-tbody tr:nth-child(2n){
+	background-color: #ffffff !important;
+}
+.ant-table-tbody>tr:hover>td{
+	background-color: #faf5c3 !important;
+}
+.ant-table-tbody>tr>td{
+	border-color: #e0e2e4 !important;
+}
+
+
+/*Collapse*/
+.ant-collapse{
+	border-color: #b8b9ba;
+}
+.ant-collapse.dashned-border>.ant-collapse-item>.ant-collapse-header{
+	background-color: #FFF;
+	border-bottom: 1px dashed #b8b9ba;
+}
+.ant-collapse>.ant-collapse-item>.ant-collapse-header{
+	background-color: #FFF;
+	border-bottom: 0px dashed #b8b9ba;
+}
+
+.ant-collapse-content:not(.dashned-border)>.ant-collapse-content-box{
+	padding-top: 0;
+}
+
+/*Layout*/
+.ant-layout{
+	background-color: transparent !important;
+}
+.ant-layout-sider{
+	background-color: #FFF !important;
+}
+
+/*Row*/
+
+
+/*Input*/
+.ant-input[type='text']{
+	height: 26px !important;
+	border: 1px solid #b8b9ba !important;
+	color: #313233 !important;
+	border-radius: 2px !important;
+}
+.ant-input[type='text']:hover,
+.ant-input[type='text']:focus{
+	box-shadow: none !important;
+	border: 1px solid #b8b9ba !important;
+}
+
+
+/*Button*/
+.ant-btn{
+	height: 26px !important;
+	background: linear-gradient(to top, #eaebec, #f0f2f3 ) !important;
+	border-color: #b8b9ba !important;
+	color: #313233 !important;
+	border-radius: 2px !important;
+}
+.ant-btn[disabled]{
+	background: #eaebec !important;
+	border-color: #e0e2e4 !important;
+	color: #b4b6b7 !important;
+}
+.ant-btn:hover{
+	background: transparent;
+}
+.ant-btn-sm{
+	height: 22px !important;
+}
+.ant-btn-lg{
+	height: 32px !important;
+}
